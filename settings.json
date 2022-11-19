@@ -1,0 +1,67 @@
+{
+    "omnisharp.useModernNet": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "n",
+                "t"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.toggleSidebarVisibility",
+                    "when": "sideBarVisible",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "git.autofetch": true,
+    "vim.leader": ",",
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "typescript.tsserver.watchOptions": {},
+    "breadcrumbs.enabled": false
+}

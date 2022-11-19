@@ -1,0 +1,14 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    // Traverse VSCode IntelliSense suggestions with vim keybindings.
+{
+    "key": "k",
+    "command": "selectPrevCodeAction",
+    "when": "codeActionMenuVisible"
+},
+{
+    "key": "j",
+    "command": "selectNextCodeAction",
+    "when": "codeActionMenuVisible"
+}
+]
